@@ -61,11 +61,17 @@ def transform(df_):
     return df_
 
 
+def load_to_csv(df_, file_path):
+    df_.to_csv(file_path, index=False)
+
+
 log_progress("Preliminaries complete. Initializing ETL process")
 
 df = extract(url_data, table_att_initial)
 log_progress("Data extraction complete. Initializing Transformation process")
 
 df = transform(df)
-print(df.head())
-log_progress("Transformation complete.")
+log_progress("Transformation complete. Saving the df to the csv file")
+
+load_to_csv(df, output_csv_path)
+log_progress("Data saved to the csv file.")
