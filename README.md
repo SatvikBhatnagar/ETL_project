@@ -64,8 +64,8 @@ python main.py
 
 The `docs` directory contains detailed design documents:
 
-- `HLD.pdf`: [High-Level Design] document outlining the overall architecture and components of the project
-- `LLD.pdf`: [Low-Level Design] document providing detailed specifications and function descriptions
+- `HLD.pdf`: [High-Level Design](https://github.com/SatvikBhatnagar/ETL_project/blob/main/doc/High-Level%20Design%20(HLD).pdf) document outlining the overall architecture and components of the project
+- `LLD.pdf`: [Low-Level Design](https://github.com/SatvikBhatnagar/ETL_project/blob/main/doc/Low-Level%20Design%20(LLD).pdf) document providing detailed specifications and function descriptions
 
 Refer to these documents for a comprehensive understanding of the project's design and implementation.
 
