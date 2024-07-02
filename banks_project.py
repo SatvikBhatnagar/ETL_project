@@ -2,6 +2,7 @@ from datetime import datetime
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+import sqlite3
 
 url_data = 'https://web.archive.org/web/20230908091635 /https://en.wikipedia.org/wiki/List_of_largest_banks'
 csv_exchange_rate = './exchange_rate.csv'
@@ -12,6 +13,8 @@ target_file = "./Banks.db"
 table_att_initial = ['Name', 'MC_USD_Billion']
 table_att_final = ['Name', 'MC_USD_Billion', 'MC_GBP_Billion', 'MC_EUR_Billion', 'MC_INR_Billion']
 table_name = 'Largest_banks'
+
+conn = sqlite3.connect(target_file)
 
 
 def log_progress(message):
@@ -65,6 +68,10 @@ def load_to_csv(df_, file_path):
     df_.to_csv(file_path, index=False)
 
 
+def load_to_db(df_):
+    df_.to_sql(table_name, con=conn, if_exists='replace')
+
+
 log_progress("Preliminaries complete. Initializing ETL process")
 
 df = extract(url_data, table_att_initial)
@@ -74,4 +81,7 @@ df = transform(df)
 log_progress("Transformation complete. Saving the df to the csv file")
 
 load_to_csv(df, output_csv_path)
-log_progress("Data saved to the csv file.")
+log_progress("Data saved to the csv file. Saving the df to the DB")
+
+load_to_db(df)
+log_progress("Data saved to the DB.")
