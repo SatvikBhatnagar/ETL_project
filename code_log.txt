@@ -16,3 +16,14 @@
 2024-Jul-02 01:26:25,Transformation complete. Saving the df to the csv file
 2024-Jul-02 01:26:25,Data saved to the csv file. Saving the df to the DB
 2024-Jul-02 01:26:26,Data saved to the DB.
+2024-Jul-02 01:27:53,Preliminaries complete. Initializing ETL process
+2024-Jul-02 01:27:54,Data extraction complete. Initializing Transformation process
+2024-Jul-02 01:27:54,Transformation complete. Saving the df to the csv file
+2024-Jul-02 01:27:54,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 01:27:55,Data saved to the DB.
+2024-Jul-02 01:35:28,Preliminaries complete. Initializing ETL process
+2024-Jul-02 01:35:34,Data extraction complete. Initializing Transformation process
+2024-Jul-02 01:35:34,Transformation complete. Saving the df to the csv file
+2024-Jul-02 01:35:34,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 01:35:34,Data saved to the DB. Running some queries
+2024-Jul-02 01:35:34,Queries executed successfully

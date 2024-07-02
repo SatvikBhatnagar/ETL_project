@@ -71,6 +71,11 @@ def load_to_csv(df_, file_path):
 def load_to_db(df_):
     df_.to_sql(table_name, con=conn, if_exists='replace')
 
+def run_query(query_statement, sql_connection):
+    query_output = pd.read_sql(query_statement, con=conn)
+    print(query_statement)
+    print(query_output)
+
 
 log_progress("Preliminaries complete. Initializing ETL process")
 
@@ -84,4 +89,14 @@ load_to_csv(df, output_csv_path)
 log_progress("Data saved to the csv file. Saving the df to the DB")
 
 load_to_db(df)
-log_progress("Data saved to the DB.")
+log_progress("Data saved to the DB. Running some queries")
+
+query_statement1 = f'SELECT * FROM {table_name}'
+query_statement2 = f'SELECT * FROM {table_name} WHERE MC_USD_Billion > 200'
+
+try:
+    run_query(query_statement1, conn)
+    run_query(query_statement2, conn)
+except Exception as e:
+    print('Exception when executing run_query():', e)
+log_progress("Queries executed successfully")
