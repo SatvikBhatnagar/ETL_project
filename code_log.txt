@@ -51,3 +51,87 @@
 2024-Jul-02 01:50:58,Data saved to the csv file. Saving the df to the DB
 2024-Jul-02 01:50:59,Data saved to the DB. Running some queries
 2024-Jul-02 01:51:00,Queries executed successfully
+2024-Jul-02 12:33:44,Preliminaries complete. Initializing ETL process
+2024-Jul-02 12:33:46,Data extraction complete. Initializing Transformation process
+2024-Jul-02 12:35:33,Preliminaries complete. Initializing ETL process
+2024-Jul-02 12:35:34,Data extraction complete. Initializing Transformation process
+2024-Jul-02 13:57:53,Preliminaries complete. Initializing ETL process
+2024-Jul-02 13:57:55,Data extraction complete. Initializing Transformation process
+2024-Jul-02 13:58:17,Preliminaries complete. Initializing ETL process
+2024-Jul-02 13:58:19,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:00:24,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:00:25,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:00:25,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:00:25,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:00:26,Data saved to the DB. Running some queries
+2024-Jul-02 14:00:26,Queries executed successfully
+2024-Jul-02 14:00:46,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:00:48,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:00:48,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:00:48,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:00:49,Data saved to the DB. Running some queries
+2024-Jul-02 14:00:49,Queries executed successfully
+2024-Jul-02 14:01:09,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:01:12,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:01:14,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:01:16,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:02:26,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:02:28,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:07:52,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:07:54,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:09:06,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:09:08,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:09:08,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:09:08,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:09:09,Data saved to the DB. Running some queries
+2024-Jul-02 14:09:09,Queries executed successfully
+2024-Jul-02 14:09:26,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:09:28,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:10:26,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:10:27,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:10:27,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:10:27,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:10:28,Data saved to the DB. Running some queries
+2024-Jul-02 14:10:28,Queries executed successfully
+2024-Jul-02 14:12:22,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:12:24,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:12:24,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:12:24,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:12:25,Data saved to the DB. Running some queries
+2024-Jul-02 14:12:25,Queries executed successfully
+2024-Jul-02 14:12:36,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:12:38,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:12:38,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:12:38,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:12:39,Data saved to the DB. Running some queries
+2024-Jul-02 14:12:39,Queries executed successfully
+2024-Jul-02 14:12:54,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:12:56,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:12:56,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:12:56,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:12:57,Data saved to the DB. Running some queries
+2024-Jul-02 14:12:57,Queries executed successfully
+2024-Jul-02 14:13:17,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:13:19,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:13:19,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:13:19,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:13:19,Data saved to the DB. Running some queries
+2024-Jul-02 14:13:19,Queries executed successfully
+2024-Jul-02 14:15:03,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:15:05,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:15:05,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:15:05,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:15:06,Data saved to the DB. Running some queries
+2024-Jul-02 14:15:06,Queries executed successfully
+2024-Jul-02 14:19:32,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:19:34,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:19:34,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:19:34,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:19:35,Data saved to the DB. Running some queries
+2024-Jul-02 14:19:35,Queries executed successfully
+2024-Jul-02 14:20:01,Preliminaries complete. Initializing ETL process
+2024-Jul-02 14:20:04,Data extraction complete. Initializing Transformation process
+2024-Jul-02 14:20:04,Transformation complete. Saving the df to the csv file
+2024-Jul-02 14:20:04,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 14:20:04,Data saved to the DB. Running some queries
+2024-Jul-02 14:20:04,Queries executed successfully

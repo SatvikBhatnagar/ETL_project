@@ -52,12 +52,15 @@ def transform(df_):
         format to float value, transforms the information of GDP from
         USD (Millions) to USD (Billions) rounding to 2 decimal places.
         The function returns the transformed dataframe."""
+    # df_ = df_.index
     try:
         exchange_rates = pd.read_csv(csv_exchange_rate)
+        count = 0
         for rate in exchange_rates.iloc[:, 1]:
-            for currency in table_att_final[2:]:
-                df_[currency] = round(rate * df_.iloc[:, 1], 2)
-                pass
+            for attr in exchange_rates.iloc[:,0]:
+                if attr in table_att_final[count+2].split('_'):
+                    df_[table_att_final[count+2]] = round(rate * df_.iloc[:,1],2)
+            count += 1
     except FileNotFoundError:
         print('csv file not found')
 
