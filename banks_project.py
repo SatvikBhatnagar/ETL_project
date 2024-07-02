@@ -100,3 +100,5 @@ try:
 except Exception as e:
     print('Exception when executing run_query():', e)
 log_progress("Queries executed successfully")
+
+conn.close()
