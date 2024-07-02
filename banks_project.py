@@ -65,14 +65,21 @@ def transform(df_):
 
 
 def load_to_csv(df_, file_path):
+    """ This function saves the final data frame as a CSV file in
+        the provided path. Function returns nothing."""
     df_.to_csv(file_path, index=False)
 
 
 def load_to_db(df_):
+    """ This function saves the final data frame to a database
+        table with the provided name. Function returns nothing."""
     df_.to_sql(table_name, con=conn, if_exists='replace')
 
-def run_query(query_statement, sql_connection):
-    query_output = pd.read_sql(query_statement, con=conn)
+
+def run_query(query_statement, conn_):
+    """ This function runs the query on the database table and
+        prints the output on the terminal. Function returns nothing. """
+    query_output = pd.read_sql(query_statement, con=conn_)
     print(query_statement)
     print(query_output)
 

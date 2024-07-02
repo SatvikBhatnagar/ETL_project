@@ -27,3 +27,9 @@
 2024-Jul-02 01:35:34,Data saved to the csv file. Saving the df to the DB
 2024-Jul-02 01:35:34,Data saved to the DB. Running some queries
 2024-Jul-02 01:35:34,Queries executed successfully
+2024-Jul-02 01:43:55,Preliminaries complete. Initializing ETL process
+2024-Jul-02 01:43:58,Data extraction complete. Initializing Transformation process
+2024-Jul-02 01:43:58,Transformation complete. Saving the df to the csv file
+2024-Jul-02 01:43:58,Data saved to the csv file. Saving the df to the DB
+2024-Jul-02 01:43:59,Data saved to the DB. Running some queries
+2024-Jul-02 01:43:59,Queries executed successfully
