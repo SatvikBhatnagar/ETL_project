@@ -100,10 +100,16 @@ log_progress("Data saved to the DB. Running some queries")
 
 query_statement1 = f'SELECT * FROM {table_name}'
 query_statement2 = f'SELECT * FROM {table_name} WHERE MC_USD_Billion > 200'
+query_statement3 = f'SELECT * FROM Largest_banks'
+query_statement4 = f'SELECT AVG(MC_GBP_Billion) FROM {table_name}'
+query_statement5 = f'SELECT Name from Largest_banks LIMIT 5'
 
 try:
     run_query(query_statement1, conn)
     run_query(query_statement2, conn)
+    run_query(query_statement3, conn)
+    run_query(query_statement4, conn)
+    run_query(query_statement5, conn)
 except Exception as e:
     print('Exception when executing run_query():', e)
 log_progress("Queries executed successfully")
