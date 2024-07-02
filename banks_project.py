@@ -37,9 +37,26 @@ def extract(url, table_att):
         col = row.find_all('td')
         if len(col) != 0:
             data_dict = {"Name": col[1].text.strip(),
-                         "MC_USD_Billion": col[2].text.strip(), }
+                         "MC_USD_Billion": float(col[2].text.strip()), }
             df1 = pd.DataFrame(data_dict, index=[0])
             df_ = pd.concat([df_, df1], ignore_index=True)
+
+    return df_
+
+
+def transform(df_):
+    """ This function converts the GDP information from Currency
+        format to float value, transforms the information of GDP from
+        USD (Millions) to USD (Billions) rounding to 2 decimal places.
+        The function returns the transformed dataframe."""
+    try:
+        exchange_rates = pd.read_csv(csv_exchange_rate)
+        for rate in exchange_rates.iloc[:, 1]:
+            for currency in table_att_final[2:]:
+                df_[currency] = round(rate * df_.iloc[:, 1], 2)
+                pass
+    except FileNotFoundError:
+        print('csv file not found')
 
     return df_
 
@@ -48,4 +65,7 @@ log_progress("Preliminaries complete. Initializing ETL process")
 
 df = extract(url_data, table_att_initial)
 log_progress("Data extraction complete. Initializing Transformation process")
-print(df)
+
+df = transform(df)
+print(df.head())
+log_progress("Transformation complete.")
