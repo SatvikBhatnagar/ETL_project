@@ -135,3 +135,17 @@
 2024-Jul-02 14:20:04,Data saved to the csv file. Saving the df to the DB
 2024-Jul-02 14:20:04,Data saved to the DB. Running some queries
 2024-Jul-02 14:20:04,Queries executed successfully
+2024-Jul-03 08:59:33,Preliminaries complete. Initializing ETL process
+2024-Jul-03 08:59:37,Data extraction complete. Initializing Transformation process
+2024-Jul-03 08:59:37,Transformation complete. Saving the df to the csv file
+2024-Jul-03 08:59:37,Data saved to the csv file. Saving the df to the DB
+2024-Jul-03 08:59:38,Data saved to the DB. Running some queries
+2024-Jul-03 08:59:38,Queries executed successfully
+2024-Jul-03 09:04:13,Preliminaries complete. Initializing ETL process
+2024-Jul-03 09:04:15,Data extraction complete. Initializing Transformation process
+2024-Jul-03 09:04:34,Preliminaries complete. Initializing ETL process
+2024-Jul-03 09:04:35,Data extraction complete. Initializing Transformation process
+2024-Jul-03 09:04:35,Transformation complete. Saving the df to the csv file
+2024-Jul-03 09:04:35,Data saved to the csv file. Saving the df to the DB
+2024-Jul-03 09:04:36,Data saved to the DB. Running some queries
+2024-Jul-03 09:04:36,Queries executed successfully
